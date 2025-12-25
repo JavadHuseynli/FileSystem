@@ -1,10 +1,10 @@
 <?php
 // PostgreSQL bağlantı parametrləri
-$host = "172.18.250.22";
-$port = "5432";
-$dbname = "salam";
-$user = "postgres";
-$password = "S@l@m2015";
+$host = "YOUR API ADDRES";
+$port = "xxx";
+$dbname = "xxx";
+$user = "xxxx";
+$password = "xxx";
 
 // Bağlantı cümləsi
 $conn_string = "host=$host port=$port dbname=$dbname user=$user password=$password";
@@ -19,3 +19,4 @@ if (!$conn) {
     pg_close($conn);
 }
 ?>
+
